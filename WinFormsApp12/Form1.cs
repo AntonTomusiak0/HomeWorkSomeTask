@@ -13,7 +13,7 @@ namespace WinFormsApp12
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            /*OpenFileDialog ofd = new OpenFileDialog
+            OpenFileDialog ofd = new OpenFileDialog
             {
                 Filter = "Text Files (*.txt) | *.txt | All Files (*.*) | *.*"
             };
@@ -21,9 +21,9 @@ namespace WinFormsApp12
             {
                 string filePath = ofd.FileName;
                 ReadFile(filePath);
-            }*/
+            }
         }
-        /*private void ReadFile(string filePath)
+        private void ReadFile(string filePath)
         {
             long fileSize = new FileInfo(filePath).Length;
             progressBar1.Value = 0;
@@ -45,7 +45,7 @@ namespace WinFormsApp12
                     Application.DoEvents();
                 }
             }
-        }*/
+        }
         private void progressBar1_Click(object sender, EventArgs e)
         {
 
